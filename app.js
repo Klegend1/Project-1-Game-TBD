@@ -88,7 +88,7 @@ function checkGameOver() {
     if (state.boredom >= 10 || state.hunger >= 10 || state.sleepiness >= 10) {
         console.log('Game over!');
         gameOver = true; 
-        gameMessageEl.textContent = 'Oh no, you lose!'; 
+        gameMessageEl.textContent = 'Oh No, You Lose!'; 
     }
 };
 

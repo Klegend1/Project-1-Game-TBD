@@ -6,7 +6,7 @@
 body {
   font-size: 16px;
   min-height: 100vh;
-  background-color: #ff0707;
+  background-color: #0d0c6770;
   font-family: system-ui, sans-serif;
 }
 
@@ -57,17 +57,17 @@ button {
   border: 0;
   border-radius: 0.5rem;
   
-  color: rgb(0, 179, 143);
-  background-color: #b0067a;
+  color: rgb(16, 105, 87);
+  background-color: #26017b;
   transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 button:hover {
-  background-color: #3880d7;
+  background-color: #c8ccd1;
 }
 
 button:active {
-  background-color: #2e6bb6;
+  background-color: #4e4f51;
 }
 
 /* images */
@@ -76,7 +76,28 @@ button:active {
   margin-bottom: 32px;
 }
 
+.image-container {
+  background-color: #e8e3e3;
+  padding: 20px; 
+  display: inline-block; 
+}
+
+
 .hidden {
   visibility: hidden;
 }
 
+
+h2 {
+  color: #5c0b0b;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #640779;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: center;
+}
